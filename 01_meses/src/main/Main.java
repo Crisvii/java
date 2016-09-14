@@ -13,10 +13,10 @@ public class Main {
 	
 	mes = teclado.nextInt();
 	
-	if(mes < 1 && mes > 12){
+	/*if(mes < 1 && mes > 12){
 		System.out.println("NO EXISTE ESE MES !!!");
 		System.exit(0);
-	}
+	}*/
 	
 	switch(mes){
 	case 1:
@@ -55,6 +55,8 @@ public class Main {
 	case 12:
 		System.out.println("\nEl mes "+mes+" es Diciembre.");
 		break;
+        default:
+                System.out.println("\n¡ El mes "+mes+" no existe !");
 		
 	}
 	
@@ -97,6 +99,8 @@ public class Main {
 
 	case 12:
 		System.out.println("\nDiciembre.");
+        default:
+                System.out.println("\n¡ El mes "+mes+" no existe !");
 
 
 	}
